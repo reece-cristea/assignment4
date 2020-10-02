@@ -1,0 +1,7 @@
+1. In bubble sort it compares only 2 elements for every iteration through the array while selection and insertion sort compare multiple elements in the array with each iteration.
+
+2. Selection sort is just like insertion sort except with selection sort it only compares the first element in the array and the element on whatever iteration you are on, but with insertion sort it also compares all the elements inbetween putting the element in its right spot on the its first iteration.
+
+3. It needs to be of the template T for it to use the sort methods implemented.
+
+4. It's probably because it is a part of the C++ standard library.
