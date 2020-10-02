@@ -76,9 +76,9 @@ namespace csi281 {
 				if (array[j] < array[minIndex])
 				{
 					minIndex = j;
-					temp = array[minIndex];
-					array[minIndex] = array[i];
-					array[i] = temp;
+					temp = array[i];
+					array[i] = array[minIndex];
+					array[minIndex] = temp;
 				}
 			}
 		}
